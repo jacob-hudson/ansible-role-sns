@@ -1,0 +1,12 @@
+---
+
+- name: Create SNS Topic
+  sns_topic:
+    name: "{{sns_topic_name}}"
+    state: present
+    display_name: "{{sns_display_name}}"
+    subscriptions:
+      - endpoint: "my_email_address@example.com"
+        protocol: "email"
+      - endpoint: "my_mobile_number"
+        protocol: "sms"

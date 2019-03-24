@@ -1,0 +1,8 @@
+---
+
+- name: Wrapper playbook for AWS NS
+  hosts: localhost
+  connection: local
+  gather_facts: false
+  roles:
+    - { role: aws_s3 }
