@@ -5,4 +5,4 @@
   connection: local
   gather_facts: false
   roles:
-    - { role: aws_s3 }
+    - { role: aws_sns, foo: 'bar' }
