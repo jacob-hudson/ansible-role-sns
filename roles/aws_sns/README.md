@@ -14,6 +14,7 @@ Role Variables
 ```
 sns_topic_name - Name of the SNS topic
 sns_display_name - Display name of the SNS Topic
+```
 
 Dependencies
 ------------
